@@ -3,6 +3,7 @@
 ## Individual Project
 
 Name: Rachana Vijay
+
 CWID: A20605843
 
 ---
@@ -18,7 +19,6 @@ This project implements a minimal IR system that crawls web pages, builds an inv
 * Cosine similarity ranking
 * Flask server for handling CSV queries
 * Top-K results generation
-* Optional NLP enhancements (query spelling correction, expansion)
 
 ---
 
@@ -128,14 +128,13 @@ curl -X POST -F "file=@queries.csv" http://127.0.0.1:5000/search
 
 ---
 
-## 6a. Component Descriptions
+## Component Descriptions
 
 ### Scrapy Crawler
 
 * Crawls HTML content from Wikipedia starting from a seed URL.
 * Configurable parameters: max pages, max depth.
 * Saves crawled pages into `html_docs/`.
-* Optional: AutoThrottle, distributed crawling via Scrapyd.
 
 ### Scikit-learn Indexer
 
@@ -149,7 +148,6 @@ curl -X POST -F "file=@queries.csv" http://127.0.0.1:5000/search
 * Accepts CSV queries and validates inputs.
 * Computes cosine similarity between query vectors and document TF-IDF vectors.
 * Ranks documents and outputs top-K results in `results.csv`.
-* Optional: NLP enhancements like spelling correction and query expansion.
 
 ---
 
