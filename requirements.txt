@@ -1,0 +1,10 @@
+Flask>=3.1
+scrapy>=2.13
+scikit-learn>=1.6
+nltk>=3.8
+numpy
+scipy
+beautifulsoup4
+python-Levenshtein
+pandas
+tqdm
