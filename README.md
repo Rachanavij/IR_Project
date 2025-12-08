@@ -189,3 +189,4 @@ python -m pytest
 3. Goodfellow, I., Bengio, Y., & Courville, A. *Deep Learning*. MIT Press, 2016.
 4. Hastie, T., Tibshirani, R., & Friedman, J. *The Elements of Statistical Learning*. Springer, 2009.
 5. Wikipedia — [Data Science](https://en.wikipedia.org/wiki/Data_science)
+6. *Open AI*, ChatGPT.
