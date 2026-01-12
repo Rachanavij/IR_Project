@@ -1,13 +1,3 @@
-# CS429 - Information Retrieval
-
-## Individual Project
-
-Name: Rachana Vijay
-
-CWID: A20605843
-
----
-
 ## 1. Project Description
 
 This project implements a minimal IR system that crawls web pages, builds an inverted index using TF-IDF, and ranks documents based on cosine similarity for user queries. It supports batch query processing via CSV and outputs top-K ranked documents.
